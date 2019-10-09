@@ -1,6 +1,6 @@
 {
   "name": "LoveMyTasks",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "start": "node_modules/.bin/babel-node index.js",
@@ -9,18 +9,22 @@
     "dist": "electron-builder"
   },
   "dependencies": {
+    "@andrewsosa/dev-tools": "^1.2.0",
     "autogypi": "^0.2.2",
     "nbind": "github:charto/nbind",
     "proton-native": "^1.1.11",
     "react": "^16.9.0",
-    "sqlite": "^3.0.3"
+    "sqlite": "^3.0.3",
+    "store": "^2.0.12"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "electron-builder": "latest"
+    "electron-builder": "latest",
+    "proton-native-reload": "^1.1.0",
+    "react-devtools": "^4.1.1"
   },
   "build": {
     "protonNodeVersion": "current",
